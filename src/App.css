@@ -1,3 +1,9 @@
+:root{
+  --primary : rgb(201, 201, 243);
+  --second : rgb(149, 149, 206);
+  --third : rgb(149, 149, 206);
+  --fourth : rgb(149, 149, 206);
+}
 .App {
   text-align: center;
 }
@@ -26,6 +32,27 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.custom-nav-btn{
+  background: var(--primary);
+  padding: 2px 5px;
+  border: 2px solid black;
+  color: rgb(36, 36, 36);
+  font-weight: 700;
+  font-size: 10px;
+  margin: 2px;
+}
+
+.maindiv{
+  margin-top: 20px;
+  padding:10px;
+  border: 2px solid rgb(242, 242, 242);
+  color: rgb(50, 50, 50);
+}
+
+.d-flex{
+  display: flex;
 }
 
 @keyframes App-logo-spin {
